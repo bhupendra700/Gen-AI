@@ -163,7 +163,8 @@ def main():
                     "content": [{"type": "text", "text": interaction.output_text}],
                 }
             )
-
+            
+            print("History: " , history)
             print("AI: ", interaction.output_text)
 
     except Exception as e:
